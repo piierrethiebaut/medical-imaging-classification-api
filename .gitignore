@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Environnements virtuels ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Variables d'environnement / secrets ---
+.env
+.env.local
+*.pem
+
+# --- Dataset (jamais commité, trop lourd) ---
+data/*
+!data/.gitkeep
+
+# --- Poids de modèle (hébergés sur Hugging Face Hub) ---
+models/*
+!models/.gitkeep
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Streamlit ---
+.streamlit/secrets.toml

@@ -1,0 +1,25 @@
+# --- API ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# --- ML / Deep Learning ---
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+pillow==11.0.0
+
+# --- GradCAM / explicabilité ---
+grad-cam==1.5.4
+
+# --- Hugging Face Hub (téléchargement des poids) ---
+huggingface-hub==0.27.0
+
+# --- Utilitaires ---
+python-dotenv==1.0.1
+
+# --- Tests ---
+pytest==8.3.4
+httpx==0.28.1
